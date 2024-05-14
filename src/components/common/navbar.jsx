@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Link className={`link ${activelink(pathname, '/projects')} ${inter.className} text-sm`} href={'/projects'}>Projects</Link>
                 </div>
             </div>
-            <Link className={`link ${activelink(pathname, '/work')}`} href={'/work'}>
+            <Link href={'https://www.behance.net/indraniljoshi'}>
                 <button className='border rounded-full py-2 px-4 text-slate-600 text-sm bg-white'>
                     Behance
                 </button>
