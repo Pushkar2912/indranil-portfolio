@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-// import IndranilImg from '../../../public'
 import { inter, playFairDisplay } from '@/lib/fonts'
 
 const Introduction = () => {
@@ -15,7 +14,7 @@ const Introduction = () => {
             />
             <div className='flex flex-col gap-5'>
                 <p className={`${playFairDisplay.className} w-full text-5xl`}>
-                    I'm Indranil Joshi
+                    I&apos;m Indranil Joshi
                 </p>
                 <p className={`w-full text-xl ${inter.className}`}>
                     3D Animator and Graphic Designer based in Pune, India
