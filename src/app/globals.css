@@ -7,8 +7,15 @@
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  @apply h-full flex flex-col gap-10 px-5;
 }
 
 .active{
   color: black;
+}
+
+.landing-sticky-left{
+  position: sticky;
+  top: 180px;
+  left: 0;
 }

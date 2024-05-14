@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import IndranilImg from '../../../public/assets/Indranil-image.jpeg'
+// import IndranilImg from '../../../public'
 import { inter, playFairDisplay } from '@/lib/fonts'
 
 const Introduction = () => {
     return (
-        <div className='min-h-[100vh] w-[50%] h-screen flex flex-col gap-16  '>
+        <div className='min-h-[100vh] w-[50%] h-screen flex flex-col gap-16 landing-sticky-left'>
             <Image
                 className='rounded-3xl'
-                src={IndranilImg}
+                src={'/assets/Indranil-image.jpeg'}
                 alt='Image of Author'
                 width={200}
                 height={200}

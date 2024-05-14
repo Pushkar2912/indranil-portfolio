@@ -14,10 +14,10 @@ const PersonalInfo = () => {
                         Animator Film Designer who is eager to take on new challenges and work in different domains. Being creative and innovative keeps me happy and makes me a valuable addition to the team.
                     </p>
                     <div className='flex gap-5'>
-                        <button className='border rounded-full py-2 px-3 text-slate-300 text-sm bg-black'>
+                        <button className='border rounded-full py-2 px-4 text-slate-300 text-sm bg-black'>
                             See my work
                         </button>
-                        <button className='border rounded-full py-2 px-3 text-slate-600 text-sm'>
+                        <button className='border rounded-full py-2 px-4 text-slate-600 text-sm bg-white'>
                             Contact me
                         </button>
                     </div>
