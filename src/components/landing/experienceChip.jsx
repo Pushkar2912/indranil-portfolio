@@ -11,6 +11,7 @@ const ExperienceChip = ({ companyIcon, companyName, from, to, type }) => {
                         src={companyIcon}
                         height={30}
                         width={30}
+                        alt='company icon'
                     />
                 </div>
                 <div className='flex- flex-col'>
