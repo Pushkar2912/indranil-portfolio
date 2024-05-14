@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-            <div className='h-screen  flex flex-col gap-10'>
+            <div className='h-screen  flex flex-col gap-10 mb-20'>
                 <div className='flex flex-col gap-16'>
                     <Card
                         titile={"Lesics Inhouse Projects"}

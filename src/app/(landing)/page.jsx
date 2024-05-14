@@ -7,7 +7,7 @@ const Landing = () => {
     return (
 
 
-        <div className='flex'>
+        <div className='flex mb-20'>
             <Introduction />
             <PersonalInfo />
         </div>
