@@ -4,9 +4,10 @@ import React from 'react'
 import Introduction from '@/components/landing/introduction'
 import PersonalInfo from '@/components/landing/personalInfo'
 
+
 const Landing = () => {
   return (
-    <div className='bg-[#fffbf5] h-[100vh] flex flex-col gap-10'>
+    <div className={'bg-[#fffbf5] h-screen flex flex-col gap-10'}>
         <Navbar />
         <div className='flex app-container'>
             <Introduction />
