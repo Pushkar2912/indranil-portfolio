@@ -1,9 +1,4 @@
-"use client"
-
-import { usePathname } from "next/navigation"
-
-export function activelink(path) {
-    const pathname = usePathname();
+export function activelink(pathname, path) {
     if (pathname === path) {
         return 'active'
     } else {
