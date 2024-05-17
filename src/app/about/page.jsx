@@ -29,7 +29,7 @@ const About = () => {
 
                 <div className='flex flex-col gap-16'>
                     <p className={`text-xl ${inter.className}`}>Education</p>
-                    <div className='grid grid-cols-2 gap-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
                         <Card institute={"MIT Institute Of Design"} standard={"M.des(Animation & Film Design)"} location={"Pune"} medium={"English"} year={"2022"} />
                         <Card institute={"Sandip Foundation (SITRC)"} standard={"Engineering"} location={"Nashik"} medium={"English"} year={"2019"} />
                         <Card institute={"K.K.Wagh Ploytechnic"} standard={"Diploma"} location={"Nashik"} medium={"English"} year={"2016"} />
