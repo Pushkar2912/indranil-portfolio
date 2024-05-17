@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const pathname = usePathname();
     return (
-        <div className='flex justify-between items-center bg-[#fffbf5] h-20 sticky top-0 left-0 w-full z-10'>
+        <div className='md:hidden sticky lg:flex justify-between items-center bg-[#fffbf5] h-20 top-0 left-0 w-full lg:z-10'>
             <div className='flex gap-20 items-center'>
                 <Link href={'/'}>
                     <p className={`text-2xl ${inter.className}`}>Indranil</p>

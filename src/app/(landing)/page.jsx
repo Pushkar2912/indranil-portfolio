@@ -5,9 +5,7 @@ import PersonalInfo from '@/components/landing/personalInfo'
 
 const Landing = () => {
     return (
-
-
-        <div className='flex mb-20'>
+        <div className='lg:flex-row md:flex-row flex flex-col'>
             <Introduction />
             <PersonalInfo />
         </div>

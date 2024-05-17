@@ -4,7 +4,7 @@ import { playFairDisplay } from '@/lib/fonts'
 
 const PersonalInfo = () => {
     return (
-        <div className='min-h-[100vh] w-[50%] h-screen'>
+        <div className='min-h-[100vh] flex md:w-[50%] lg:w-[50%] h-screen mb-40'>
             <div className='flex flex-col gap-5'>
                 <div className='flex flex-col gap-10'>
                     <p className={`text-3xl ${playFairDisplay.className}`}>

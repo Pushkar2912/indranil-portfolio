@@ -4,7 +4,7 @@ import { inter, playFairDisplay } from '@/lib/fonts'
 
 const Introduction = () => {
     return (
-        <div className='min-h-[100vh] w-[50%] h-screen flex flex-col gap-16 landing-sticky-left'>
+        <div className='min-h-[100vh] md:w-[50%] lg:w-[50%] h-screen flex flex-col gap-16 mb-40'>
             <Image
                 className='rounded-3xl'
                 src={'/assets/Indranil-image.jpeg'}
